@@ -1,6 +1,6 @@
 {
   "name": "HightlighIT",
-  "description": "⌘⌥⇧H clicks any element whose data‑unique‑id is “Ribbon‑Highlighter”.",
+  "description": "Extension that helps you highlight in the online version of microsoft word with the shortcut ⌘⇧L",
   "version": "1.0",
   "manifest_version": 3,
 
@@ -9,9 +9,19 @@
 
   "background": { "service_worker": "background.js" },
 
+  "action": {
+    "default_title": "HighlighIT",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "64": "icons/icon64.png",
+      "128": "icons/icon128.png"
+    }
+  },
+
   "commands": {
     "trigger-ribbon-highlighter": {
-      "suggested_key": { "mac": "command+shift+option+H" },
+      "suggested_key": { "default": "Command+Shift+L" },
       "description": "Click the Ribbon‑Highlighter element"
     }
   },
