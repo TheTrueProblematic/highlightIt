@@ -220,6 +220,7 @@
 				472FF4552DB6B770008D728D /* Frameworks */,
 				472FF4562DB6B770008D728D /* Resources */,
 				472FF4992DB6B771008D728D /* Embed Foundation Extensions */,
+				471601FB2DB92A880019029C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -379,6 +380,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		471601FB2DB92A880019029C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ -d \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\" ]; then\n  xattr -dr com.apple.quarantine \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n  echo \"⚙️ Stripped quarantine attributes from ${WRAPPER_NAME}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		472FF4542DB6B770008D728D /* Sources */ = {
