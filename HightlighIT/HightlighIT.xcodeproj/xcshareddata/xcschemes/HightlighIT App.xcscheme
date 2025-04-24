@@ -74,14 +74,5 @@
    <ArchiveAction
       buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
-      <PreActions>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-            <ActionContent
-               title = "Run Script"
-               scriptText = "# Remove quarantine from the archived bundle itself&#10;APP_PATH=&quot;${ARCHIVE_PATH}/Products/Applications/${PRODUCT_NAME}.app&quot;&#10;if [ -d &quot;$APP_PATH&quot; ]; then&#10;    /usr/bin/xattr -dr com.apple.quarantine &quot;$APP_PATH&quot;&#10;    echo &quot;&#x2705; Stripped quarantine flags from $APP_PATH&quot;&#10;fi&#10;">
-            </ActionContent>
-         </ExecutionAction>
-      </PreActions>
    </ArchiveAction>
 </Scheme>
