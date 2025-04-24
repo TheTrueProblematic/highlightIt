@@ -18,7 +18,7 @@
 		472FF47A2DB6B771008D728D /* HightlighITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472FF4792DB6B771008D728D /* HightlighITTests.swift */; };
 		472FF4842DB6B771008D728D /* HightlighITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472FF4832DB6B771008D728D /* HightlighITUITests.swift */; };
 		472FF4862DB6B771008D728D /* HightlighITUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472FF4852DB6B771008D728D /* HightlighITUITestsLaunchTests.swift */; };
-		472FF48C2DB6B771008D728D /* HightlighIT Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 472FF48B2DB6B771008D728D /* HightlighIT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		472FF48C2DB6B771008D728D /* HighlightIT Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 472FF48B2DB6B771008D728D /* HighlightIT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		472FF4912DB6B771008D728D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472FF4902DB6B771008D728D /* SafariWebExtensionHandler.swift */; };
 		472FF4A62DB6B771008D728D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 472FF4A42DB6B771008D728D /* icons */; };
 		472FF4A72DB6B771008D728D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 472FF4A52DB6B771008D728D /* manifest.json */; };
@@ -56,7 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				472FF48C2DB6B771008D728D /* HightlighIT Extension.appex in Embed Foundation Extensions */,
+				472FF48C2DB6B771008D728D /* HighlightIT Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		472FF4582DB6B770008D728D /* HightlighIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HightlighIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		472FF4582DB6B770008D728D /* HighlightIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighlightIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472FF45B2DB6B770008D728D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		472FF45F2DB6B770008D728D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
 		472FF4612DB6B770008D728D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -76,12 +76,12 @@
 		472FF46E2DB6B771008D728D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		472FF46F2DB6B771008D728D /* HightlighIT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HightlighIT.entitlements; sourceTree = "<group>"; };
 		472FF4702DB6B771008D728D /* HightlighIT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HightlighIT.entitlements; sourceTree = "<group>"; };
-		472FF4752DB6B771008D728D /* HightlighITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HightlighITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		472FF4752DB6B771008D728D /* HighlightITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighlightITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		472FF4792DB6B771008D728D /* HightlighITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HightlighITTests.swift; sourceTree = "<group>"; };
-		472FF47F2DB6B771008D728D /* HightlighITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HightlighITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		472FF47F2DB6B771008D728D /* HighlightITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighlightITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		472FF4832DB6B771008D728D /* HightlighITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HightlighITUITests.swift; sourceTree = "<group>"; };
 		472FF4852DB6B771008D728D /* HightlighITUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HightlighITUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		472FF48B2DB6B771008D728D /* HightlighIT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HightlighIT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472FF48B2DB6B771008D728D /* HighlightIT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HighlightIT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		472FF4902DB6B771008D728D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		472FF4922DB6B771008D728D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		472FF4932DB6B771008D728D /* HightlighIT_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HightlighIT_Extension.entitlements; sourceTree = "<group>"; };
@@ -136,10 +136,10 @@
 		472FF4592DB6B770008D728D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				472FF4582DB6B770008D728D /* HightlighIT.app */,
-				472FF4752DB6B771008D728D /* HightlighITTests.xctest */,
-				472FF47F2DB6B771008D728D /* HightlighITUITests.xctest */,
-				472FF48B2DB6B771008D728D /* HightlighIT Extension.appex */,
+				472FF4582DB6B770008D728D /* HighlightIT.app */,
+				472FF4752DB6B771008D728D /* HighlightITTests.xctest */,
+				472FF47F2DB6B771008D728D /* HighlightITUITests.xctest */,
+				472FF48B2DB6B771008D728D /* HighlightIT Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		472FF4572DB6B770008D728D /* HightlighIT */ = {
+		472FF4572DB6B770008D728D /* HighlightIT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 472FF49A2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighIT" */;
+			buildConfigurationList = 472FF49A2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightIT" */;
 			buildPhases = (
 				472FF4542DB6B770008D728D /* Sources */,
 				472FF4552DB6B770008D728D /* Frameworks */,
@@ -226,16 +226,16 @@
 			dependencies = (
 				472FF48E2DB6B771008D728D /* PBXTargetDependency */,
 			);
-			name = HightlighIT;
+			name = HighlightIT;
 			packageProductDependencies = (
 			);
 			productName = HightlighIT;
-			productReference = 472FF4582DB6B770008D728D /* HightlighIT.app */;
+			productReference = 472FF4582DB6B770008D728D /* HighlightIT.app */;
 			productType = "com.apple.product-type.application";
 		};
-		472FF4742DB6B771008D728D /* HightlighITTests */ = {
+		472FF4742DB6B771008D728D /* HighlightITTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 472FF49D2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighITTests" */;
+			buildConfigurationList = 472FF49D2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightITTests" */;
 			buildPhases = (
 				472FF4712DB6B771008D728D /* Sources */,
 				472FF4722DB6B771008D728D /* Frameworks */,
@@ -246,16 +246,16 @@
 			dependencies = (
 				472FF4772DB6B771008D728D /* PBXTargetDependency */,
 			);
-			name = HightlighITTests;
+			name = HighlightITTests;
 			packageProductDependencies = (
 			);
 			productName = HightlighITTests;
-			productReference = 472FF4752DB6B771008D728D /* HightlighITTests.xctest */;
+			productReference = 472FF4752DB6B771008D728D /* HighlightITTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		472FF47E2DB6B771008D728D /* HightlighITUITests */ = {
+		472FF47E2DB6B771008D728D /* HighlightITUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 472FF4A02DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighITUITests" */;
+			buildConfigurationList = 472FF4A02DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightITUITests" */;
 			buildPhases = (
 				472FF47B2DB6B771008D728D /* Sources */,
 				472FF47C2DB6B771008D728D /* Frameworks */,
@@ -266,16 +266,16 @@
 			dependencies = (
 				472FF4812DB6B771008D728D /* PBXTargetDependency */,
 			);
-			name = HightlighITUITests;
+			name = HighlightITUITests;
 			packageProductDependencies = (
 			);
 			productName = HightlighITUITests;
-			productReference = 472FF47F2DB6B771008D728D /* HightlighITUITests.xctest */;
+			productReference = 472FF47F2DB6B771008D728D /* HighlightITUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		472FF48A2DB6B771008D728D /* HightlighIT Extension */ = {
+		472FF48A2DB6B771008D728D /* HighlightIT Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 472FF4962DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighIT Extension" */;
+			buildConfigurationList = 472FF4962DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightIT Extension" */;
 			buildPhases = (
 				472FF4872DB6B771008D728D /* Sources */,
 				472FF4882DB6B771008D728D /* Frameworks */,
@@ -285,11 +285,11 @@
 			);
 			dependencies = (
 			);
-			name = "HightlighIT Extension";
+			name = "HighlightIT Extension";
 			packageProductDependencies = (
 			);
 			productName = "HightlighIT Extension";
-			productReference = 472FF48B2DB6B771008D728D /* HightlighIT Extension.appex */;
+			productReference = 472FF48B2DB6B771008D728D /* HighlightIT Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -318,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 472FF4532DB6B770008D728D /* Build configuration list for PBXProject "HightlighIT" */;
+			buildConfigurationList = 472FF4532DB6B770008D728D /* Build configuration list for PBXProject "HighlightIT" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -332,10 +332,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				472FF4572DB6B770008D728D /* HightlighIT */,
-				472FF4742DB6B771008D728D /* HightlighITTests */,
-				472FF47E2DB6B771008D728D /* HightlighITUITests */,
-				472FF48A2DB6B771008D728D /* HightlighIT Extension */,
+				472FF4572DB6B770008D728D /* HighlightIT */,
+				472FF4742DB6B771008D728D /* HighlightITTests */,
+				472FF47E2DB6B771008D728D /* HighlightITUITests */,
+				472FF48A2DB6B771008D728D /* HighlightIT Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -420,17 +420,17 @@
 /* Begin PBXTargetDependency section */
 		472FF4772DB6B771008D728D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 472FF4572DB6B770008D728D /* HightlighIT */;
+			target = 472FF4572DB6B770008D728D /* HighlightIT */;
 			targetProxy = 472FF4762DB6B771008D728D /* PBXContainerItemProxy */;
 		};
 		472FF4812DB6B771008D728D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 472FF4572DB6B770008D728D /* HightlighIT */;
+			target = 472FF4572DB6B770008D728D /* HighlightIT */;
 			targetProxy = 472FF4802DB6B771008D728D /* PBXContainerItemProxy */;
 		};
 		472FF48E2DB6B771008D728D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 472FF48A2DB6B771008D728D /* HightlighIT Extension */;
+			target = 472FF48A2DB6B771008D728D /* HighlightIT Extension */;
 			targetProxy = 472FF48D2DB6B771008D728D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -649,7 +649,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HightlighIT/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HightlighIT;
+				INFOPLIST_KEY_CFBundleDisplayName = HighlightIT;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -686,7 +686,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HightlighIT/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HightlighIT;
+				INFOPLIST_KEY_CFBundleDisplayName = HighlightIT;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -723,7 +723,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HightlighIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HightlighIT";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighlightIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HighlightIT";
 			};
 			name = Debug;
 		};
@@ -740,7 +740,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HightlighIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HightlighIT";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighlightIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HighlightIT";
 			};
 			name = Release;
 		};
@@ -777,7 +777,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		472FF4532DB6B770008D728D /* Build configuration list for PBXProject "HightlighIT" */ = {
+		472FF4532DB6B770008D728D /* Build configuration list for PBXProject "HighlightIT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				472FF4942DB6B771008D728D /* Debug */,
@@ -786,7 +786,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		472FF4962DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighIT Extension" */ = {
+		472FF4962DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightIT Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				472FF4972DB6B771008D728D /* Debug */,
@@ -795,7 +795,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		472FF49A2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighIT" */ = {
+		472FF49A2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightIT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				472FF49B2DB6B771008D728D /* Debug */,
@@ -804,7 +804,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		472FF49D2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighITTests" */ = {
+		472FF49D2DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightITTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				472FF49E2DB6B771008D728D /* Debug */,
@@ -813,7 +813,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		472FF4A02DB6B771008D728D /* Build configuration list for PBXNativeTarget "HightlighITUITests" */ = {
+		472FF4A02DB6B771008D728D /* Build configuration list for PBXNativeTarget "HighlightITUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				472FF4A12DB6B771008D728D /* Debug */,

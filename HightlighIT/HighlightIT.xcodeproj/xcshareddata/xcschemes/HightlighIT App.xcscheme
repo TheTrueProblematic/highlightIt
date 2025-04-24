@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "472FF4572DB6B770008D728D"
-               BuildableName = "HightlighIT.app"
-               BlueprintName = "HightlighIT"
-               ReferencedContainer = "container:HightlighIT.xcodeproj">
+               BuildableName = "HighlightIT.app"
+               BlueprintName = "HighlightIT"
+               ReferencedContainer = "container:HighlightIT.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,30 +29,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "472FF4742DB6B771008D728D"
-               BuildableName = "HightlighITTests.xctest"
-               BlueprintName = "HightlighITTests"
-               ReferencedContainer = "container:HightlighIT.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "472FF47E2DB6B771008D728D"
-               BuildableName = "HightlighITUITests.xctest"
-               BlueprintName = "HightlighITUITests"
-               ReferencedContainer = "container:HightlighIT.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -69,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "472FF4572DB6B770008D728D"
-            BuildableName = "HightlighIT.app"
-            BlueprintName = "HightlighIT"
-            ReferencedContainer = "container:HightlighIT.xcodeproj">
+            BuildableName = "HighlightIT.app"
+            BlueprintName = "HighlightIT"
+            ReferencedContainer = "container:HighlightIT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "472FF4572DB6B770008D728D"
-            BuildableName = "HightlighIT.app"
-            BlueprintName = "HightlighIT"
-            ReferencedContainer = "container:HightlighIT.xcodeproj">
+            BuildableName = "HighlightIT.app"
+            BlueprintName = "HighlightIT"
+            ReferencedContainer = "container:HighlightIT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
